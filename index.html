@@ -1,11 +1,263 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IT-ME</title>
-  </head>
-  <body>
-    <h1>Welcome to my website! ⭐️</h1>
-    <p>How was your day? 🎉</p>
-    <p>My name is <strong>IT-ME</strong> and I am a web developer. 🚀</p>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <title>IT-ME, CFRAMET</title>
+</head>
+
+<body>
+  <!--===== หัวเมนู =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">ชินวัฒน์</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">หน้าแรก</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">ใครคือฉัน</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">การศึกษา</a>
+          </li>
+          <!-- <li class="nav__item">
+              <a href="#work" class="nav__link">ประสบการณ์</a>
+            </li> -->
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">ทักษะ</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#project" class="nav__link">ผลงาน</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">ติดต่อ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          ดีจ้า,<br />ผม
+          <span class="home__title-color">ชินวัฒน์ แทนไธสง</span><br />
+          ไอที, โปรแกรมเมอร์
+        </h1>
+
+        <a href="#" class="button">ติดต่อ</a>
+      </div>
+
+      <div class="home__social">
+        <a href="" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="" class="home__social-icon"><i class="bx bxl-behance"></i></a>
+        <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          </mask>
+          <g mask="url(#mask0)">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">ใครคือฉัน</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.jpg" alt="" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">ผมชื่อ ชินวัฒน์ แทนไธสง หรือ เฟรม</h2>
+          <p class="about__text">
+            ผมหลงไหลในเทคโนยีมาตั้งแต่เด็ก และเรียนรู้เกี่ยวกับการเขียนโปรแกรม
+            การใช้คอมพิวเตอร์ในด้านต่างๆ ชอบเรียนรู้เรื่องใหม่ๆ ด้วยตนเอง
+            มีประสบการณ์ด้านเทคโนโลยีต่างๆ เช่น PHP, Python, HTML, CSS,
+            JavaScript, React, Node.js, MySQL, MongoDB, Git, Docker, Lua,
+            Autoit และอื่นๆ อีกมากมาย ผมสนุกกับการแก้ปัญหาที่ซับซ้อนผ่านโค้ด
+            โดยเน้นที่ระบบความวุ่นวายของขั้นตอนช่วยทุ่นแรงของเราได้และลดความซับซ้อนของระบบ
+            พร้อมทั้งขยายความรู้ของตัวเองอย่างต่อเนื่อง
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== EDUCATION =====-->
+    <section class="education section" id="education">
+      <h2 class="section-title">การศึกษา</h2>
+      <ul class="education__container">
+        <li style="--accent-color: #1b5f8c">
+          <div class="date">2560 - 2562</div>
+          <div class="title">ปริญญาตรี</div>
+          <div class="descr">
+            สาขาวิชาระบบสารสนเทศ <br />จากมหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก
+            วิทยาเขตจักรพงษภูวนารถ
+          </div>
+        </li>
+        <li style="--accent-color: #1b5f8c">
+          <div class="date">2558 - 2560</div>
+          <div class="title">อาชีวศึกษา ปวส.</div>
+          <div class="descr">
+            สาขาวิชาคอมพิวเตอร์ธุรกิจ <br />จากวิทยาลัยพณิชยการเชตุพน
+          </div>
+        </li>
+        <li style="--accent-color: #1b5f8c">
+          <div class="date">2555 - 2558</div>
+          <div class="title">อาชีวศึกษา ปวช.</div>
+          <div class="descr">
+            สาขาวิชาคอมพิวเตอร์ธุรกิจ <br />จากวิทยาลัยพณิชยการเชตุพน
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">ทักษะ</h2>
+
+      <div class="flip bd-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/python.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>PYTHON</h1>
+              <p>Versatile language for powerful, scalable solutions in various domains.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/python.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>PYTHON</h1>
+              <p>Versatile language for powerful, scalable solutions in various domains.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/c++.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>C++</h1>
+              <p>Extend of C with object-oriented features, offering high performance and complex data
+                handling.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/java.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>JAVASCRIPT</h1>
+              <p>Robust, object-oriented language ideal for large-scale applications and systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===== WORK =====
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <a href="" class="work__img">
+            <img src="assets/img/work1.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work2.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work3.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work4.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work6.jpg" alt="" />
+          </a>
+        </div>
+      </section> -->
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">ติดต่อ</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+          <!-- Replace with your Access Key -->
+          <input type="hidden" name="access_key" value="1350d1a4-9e5c-420b-ba9f-9d90e410f69e" />
+
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <input type="text" name="name" required class="contact__input" placeholder="ชื่อ" />
+          <input type="email" name="email" required class="contact__input" placeholder="อีเมล" />
+          <textarea name="message" required id="" cols="0" rows="10" class="contact__input"
+            placeholder="ข้อความของคุณ"></textarea>
+
+          <!-- Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+
+          <!-- Custom Confirmation / Success Page -->
+          <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html" />
+
+          <button type="submit" class="contact__button button">
+            ส่งข้อความ
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Made by Chinnawat Tanthaisong</p>
+  </footer>
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
